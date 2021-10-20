@@ -125,7 +125,6 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
 }
 
 #right-about {
@@ -139,4 +138,13 @@ h1, h2 {
     width: 30%;
     margin: 0 auto;
     background-color: green;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+
 }
