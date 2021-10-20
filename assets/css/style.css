@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
 * {
     margin: 0;
@@ -15,7 +15,7 @@ body {
 /* headings and logo */
 
 h1, h2 {
-        font-family: Oswald sants-serif;
+        font-family: Oswald, sants-serif;
         text-transform: uppercase;
         letter-spacing: 4px;
         color: #252525;
@@ -131,13 +131,18 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: silver;
 }
 
 #center-about {
     width: 30%;
     margin: 0 auto;
     background-color: green;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px o
 }
 
 .left-about-heading {
@@ -147,4 +152,21 @@ h1, h2 {
     clear: both;
     margin-bottom: 50px;
 
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
 }
