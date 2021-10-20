@@ -5,7 +5,53 @@
     padding: 0;
     border: none;
 }
+
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
+    color: #3a3a3a;
 }
+
+/* headings and logo */
+
+h1, h2 {
+        font-family: Oswald sants-serif;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        color: #252525;
+    }
+
+    #logo {
+        float: left;
+        font-size: 280%;
+    }
+
+/* navigation links */
+
+    #meniu {
+        font-size: 110%;
+        letter-spacing: 4px;
+    }
+
+    #meniu, #logo {
+        line-height: 75px;
+    }
+
+    #meniu li {
+        float: right;
+        list-style-type: none;
+        margin-right: 30px;
+    }
+
+    #meniu a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    #meniu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
+
+    .active {
+        border-bottom: 1px solid #3a3a3a;
+    }
